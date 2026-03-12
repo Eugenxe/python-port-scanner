@@ -29,7 +29,7 @@ def main():
     try:
         target_ip = socket.gethostbyname(target)
     except socket.gaierror:
-        print(f"Error: Unable to resolve hostanem {target}")
+        print(f"Error: Unable to resolve hostname {target}")
         sys.exit(1)
 
 
